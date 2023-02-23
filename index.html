@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>website</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <div style="margin-left: 10px">
+        <img
+          class="uta"
+          src="https://mbelajarin.com/wp-content/uploads/2023/02/3816aa13baa8e522f8e9bd18456b7db6_revou_logo.png"
+          alt="asas"
+        />
+      </div>
+      <div>
+        <a href="index.html">Home</a>
+        <a href="profile.html">Our Profile</a>
+        <a href="#">Portofolio</a>
+        <a href="#">Message</a>
+      </div>
+    </header>
+
+    <main style="margin-left: 50px; margin-right: 50px; margin-top: 80px">
+      <h1>Hi <span id="name"></span></h1>
+      <p>Ini adalah website halaman pertama</p>
+      <br />
+
+      <img
+        class="mainimg"
+        src="https://img.okezone.com/content/2022/09/22/33/2673114/7-anime-paling-ditunggu-siap-tayang-bulan-depan-rq4dTOqqxp.JPG"
+        alt=""
+      />
+
+      <!-- <img class="secondimg" src="https://media1.giphy.com/media/ccO57666u731jtpB4A/giphy.gif" alt=""> -->
+
+      <p style="text-align: justify">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ut, sequi
+        illo ducimus inventore voluptas eveniet autem aperiam quia. Eveniet
+        reprehenderit qui, magnam sed dolor nesciunt possimus id nisi natus!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut at facilis
+        aspernatur ipsum id quis velit! Nisi laborum quae, vero est perferendis
+        dignissimos cupiditate fugiat reiciendis qui quis natus! Quae? Lorem,
+        ipsum dolor sit amet consectetur adipisicing elit. Incidunt dicta
+        similique, quasi necessitatibus voluptate aspernatur in, porro ut vel
+        officiis sapiente, distinctio placeat non quod ratione eligendi animi
+        neque voluptates Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Voluptate, perspiciatis. Corrupti vel nihil accusamus quam eos
+        sint earum porro praesentium odit inventore in voluptate magni,
+        repellendus ad quos, impedit suscipit!
+      </p>
+      <br />
+      <hr style="border: 4px solid rgba(193, 188, 188, 0.989); width: 100%" />
+
+      <h2>Our Headquarter</h2>
+      <div class="gambar3">
+        <div>
+          <img
+            class="thirdimg"
+            src="https://static.wikia.nocookie.net/p__/images/2/2e/Kishou_Arima.png/revision/latest?cb=20211209215210&path-prefix=protagonist"
+            alt=""
+          />
+          <p style="margin-left: 120px">No Name</p>
+        </div>
+        <div>
+          <img
+            class="thirdimg"
+            src="https://static.wikia.nocookie.net/p__/images/2/2e/Kishou_Arima.png/revision/latest?cb=20211209215210&path-prefix=protagonist"
+            alt=""
+          />
+          <p style="margin-left: 120px">No Name</p>
+        </div>
+        <div>
+          <img
+            class="thirdimg"
+            src="https://static.wikia.nocookie.net/p__/images/2/2e/Kishou_Arima.png/revision/latest?cb=20211209215210&path-prefix=protagonist"
+            alt=""
+          />
+          <p style="margin-left: 120px">No Name</p>
+        </div>
+      </div>
+      <hr style="border: 1px solid; width: 100%" />
+      <h2>Message Us</h2>
+      <div class="onon">
+        <div>
+          <div class="inpname">
+            <label for="name" class="width">Nama</label>
+            <label for="name" class="width2">:</label>
+            <input
+              type="text"
+              id="usname"
+              required
+              placeholder="Masukkan nama"
+            />
+          </div>
+          <div class="inpname">
+            <label for="tgl" class="width">Tanggal Lahir</label>
+            <label for="tgl" class="width2">:</label>
+            <input type="date" name="tgl" id="tgl" />
+          </div>
+          <div class="inpname">
+            <label for="gender" class="width">Jenis Kelamin</label>
+            <label for="gender" class="width2"
+              >:
+              <div class="inputan">
+                <input type="radio" name="gender" value="Laki-laki" />
+                Laki-laki
+                <input type="radio" name="gender" value="Perempuan" />
+                Perempuan
+              </div>
+            </label>
+          </div>
+          <div class="inpname">
+            <label for="msg" class="width">Pesan</label>
+            <label for="name">:</label>
+            <textarea
+              name=""
+              id="msss"
+              cols="40"
+              rows="5"
+              placeholder="Masukkan pesan.."
+            ></textarea>
+          </div>
+          <div class="inpname">
+            <button style="width: 350px" id="btn_sub">Submit</button>
+          </div>
+        </div>
+        <div class="getval">
+          <span style="font-weight: bold">Current time :</span>
+          <span id="result5"></span>
+          <br /><br />
+          <span style="font-weight: bold">Nama :</span>
+          <span id="result"></span>
+          <br />
+          <span style="font-weight: bold">Tanggal lahir :</span>
+          <span id="result2"></span>
+          <br />
+          <span style="font-weight: bold">Jenis Kelamin :</span>
+          <span id="result3"></span>
+          <br />
+          <span style="font-weight: bold">Pesan :</span>
+          <span id="result4"></span>
+          <br />
+        </div>
+      </div>
+      <br /><br />
+    </main>
+    <footer>
+      <div class="container">
+        <p class="foot">Created By RevoU</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

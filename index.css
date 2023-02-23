@@ -1,0 +1,228 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Remove default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles */
+ol,
+ul {
+  list-style: none;
+}
+
+/* Remove hyperlink styles */
+
+
+body {
+  background-color: aliceblue;
+  font-size: 16px;
+  line-height: 1.5;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+.mobil {
+  color: blue;
+}
+#alya {
+  color: red;
+}
+.uta {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border: solid 0px black;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0%;
+  overflow: hidden;
+  background-color: aquamarine;
+  align-items: center;
+  
+}
+
+
+
+.thirdimg {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-left: 50px;
+}
+.gambar3 {
+  display: flex;
+}
+.inpname {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* border: 1px solid; */
+  width: 350px;
+}
+.width {
+  width: 100px;
+  display: inline-block;
+}
+/* .width2 {
+        width: 10px;
+        display: inline-block;
+       } */
+.inputan {
+  display: inline;
+}
+.onon {
+  display: flex;
+}
+.getval {
+  margin-left: 200px;
+  margin-top: 50px;
+  border: solid 1px black;
+  height: 200px;
+  width: 500px;
+  padding: 2rem 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin: 0 2rem;
+  font-size: 20px;
+}
+a:hover {
+  color: grey;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin: 0%;
+  
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.foot {
+  text-align: right;
+  margin: 0;
+  padding: 10px 0;
+}
+
+
+/* Tablet */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* Tablet */
+@media (max-width: 758px) {
+  html {
+    font-size: 62.5%;
+  }
+  .thirdimg {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+  }
+  .gambar3 {
+    display: block;
+  }
+  .onon {
+    display: block;
+  }
+  .getval {
+    margin-left: 0px;
+    margin-top: 50px;
+    border: solid 1px black;
+    height: 200px;
+    width: 400px;
+    padding: 2rem 1rem;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin: 0%;
+    width: 500px;
+    padding-right: 80px;
+  }
+  .mainimg {
+    width: 400px;
+    height: 400px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    margin: 0 1rem;
+    font-size: 18px;
+  }
+}
+
+/* Phone */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+  .thirdimg {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+  }
+  .gambar3 {
+    display: block;
+  }
+  .onon {
+    display: block;
+  }
+  .getval {
+    margin-left: 0px;
+    margin-top: 50px;
+    border: solid 1px black;
+    height: 200px;
+    width: 400px;
+    padding: 2rem 1rem;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin: 0%;
+    width: 500px;
+    padding-right: 80px;
+  }
+}
